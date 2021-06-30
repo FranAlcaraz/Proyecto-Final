@@ -1,0 +1,60 @@
+footer {
+  background-color: nth($colores, 4);
+  margin-top: 10px;
+  ul {
+    list-style: none;
+    padding-left: 0px !important;
+    a {
+      text-decoration: none;
+      font-family: "monserrat Light";
+      color: white;
+    }
+  }
+}
+
+.redes {
+  grid-area: redes;
+  margin-top: 10px;
+}
+
+.oficina {
+  grid-area: oficina;
+  margin-top: 10px;
+  color: white;
+}
+
+.newsletter {
+  grid-area: news;
+  display: flex;
+  align-items: center;
+}
+
+.photo-grid-item-redes {
+  width: 30px;
+  height: auto;
+  margin: 10px 10px;
+  grid-area: redes;
+}
+
+.gridFooter {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  justify-items: center;
+  row-gap: 20px;
+  column-gap: 10px;
+  grid-template-areas:
+    ". redes  news news oficina ."
+    ". redes . . oficina .";
+}
+
+ul {
+  .socialNet {
+    display: flex;
+    margin: 10px 10px 0px 0px ;
+    li {
+      margin: 10px 0px;
+    }
+  }
+
+}

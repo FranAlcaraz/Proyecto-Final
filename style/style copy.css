@@ -1,0 +1,214 @@
+/* 
+paleta de colores
+
+#24492e
+#4b6055
+#848682
+#c4bdb5
+#e4e4e6
+
+*/
+
+@font-face {
+  font-family: "monserrat Regular";
+  /*para otf opentype ttf truetype y woff se pone woff*/
+  src: url("../fonts/Montserrat-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "monserrat Bold";
+  src: url("../fonts/Montserrat-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "monserrat Light";
+  src: url("../fonts/Montserrat-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "monserrat extraLight";
+  src: url("../fonts/Montserrat-ExtraLight.ttf") format("truetype");
+}
+
+nav a {
+  font-family: "monserrat Bold";
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.centrado {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.header {
+  margin: 10px 10px;
+}
+
+.avatar {
+  border-radius: 75px;
+
+  border-width: 2px;
+  border-style: solid;
+  border-color: #24492e;
+}
+
+.quienSoy {
+  background-color: #c4bdb5;
+  font-family: "monserrat Bold";
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.textoYo {
+  font-family: "monserrat Light";
+  text-align: justify;
+}
+
+.containerCeo {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.containerSkills {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 400px) {
+  .containerSkills {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+  }
+}
+
+.centerYo {
+  margin-left: 15px;
+}
+
+.photo-grid-container {
+  display: flex;
+  justify-content: center;
+}
+
+.photo-grid {
+  display: flex;
+  align-items: center;
+  /*con esta propiedad se baja automaticamente cuando llega al maximo de ancho*/
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.photo-grid-item img {
+  width: 120px;
+  height: auto;
+  margin: 10px 10px;
+}
+
+.redes {
+  grid-area: redes;
+  margin-top: 10px;
+}
+.oficina {
+  grid-area: oficina;
+  margin-top: 10px;
+  color: white;
+}
+
+.newsletter{
+    grid-area: news;
+    display: flex;
+    align-items: center ;
+
+}
+
+@media only screen and (max-width: 400px) {
+  .newsletter { display:none; }
+  .maps {display: none;
+  text-align: center;}
+  .gridFooter {
+    display: flex !important;
+    flex-wrap: wrap;
+    align-items: center;
+
+  }
+  }
+
+.photo-grid-item-redes {
+  width: 30px;
+  height: auto;
+  margin: 10px 10px;
+  grid-area: redes;
+}
+
+footer {
+  background-color: #24492e;
+  margin-top: 10px;
+}
+
+footer ul {
+  list-style: none;
+  padding-left: 0px !important;
+}
+
+footer ul a {
+  text-decoration: none;
+  font-family: "monserrat Light";
+  color: white;
+}
+
+.gridFooter {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  justify-items: center;
+  row-gap: 20px;
+  column-gap: 10px;
+  grid-template-areas: ". redes  news news oficina ."
+  ". redes news news oficina .";
+}
+
+
+.servicios{
+  display: grid;
+  justify-self: center;
+  grid-template-columns: repeat(5,1fr);
+  grid-template-rows: repeat(2,1fr);
+  justify-items: center;
+  row-gap: 20px;
+  column-gap: 10px;
+  grid-template-areas: ". responsive . . .";
+  
+}
+
+.productos img{
+  width: 300px;
+}
+
+.responsive{
+  grid-area: responsive;
+}
+
+.square2 {
+  transition: all 0.2s;
+}
+
+.square2:hover {
+  /* transform: translate(20px, 20px); */
+  transform: scale(1.5);
+}
+
+.centrado{
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
