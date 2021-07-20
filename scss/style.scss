@@ -38,6 +38,9 @@ nav {
 }
 .backgroundHover{
   padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 
@@ -150,10 +153,21 @@ nav {
   margin-right: auto !important;
 }
 
-.error404{
-  width: 50%;
+.a404{
+  @include colorFuente(nth($colores, 2));
+  font-family: 'monserrat Bold';
+  font-display: swap;
   display: flex;
   align-items: center;
+  flex-direction: column;
+}
+
+.error404{
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
 }
 
@@ -162,4 +176,16 @@ nav {
   flex-direction: row;
   align-items: center;
 
+}
+
+.error-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.servicio{
+  text-align: center;
+  img{
+    align-items: center;
+  }
 }

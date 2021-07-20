@@ -178,6 +178,9 @@ nav .fran {
 
 .backgroundHover {
   padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .backgroundHover:hover {
@@ -277,15 +280,39 @@ nav .fran {
   margin-right: auto !important;
 }
 
-.error404 {
-  width: 50%;
+.a404 {
+  color: #4b6055;
+  font-family: "monserrat Bold";
+  font-display: swap;
   display: flex;
   align-items: center;
+  flex-direction: column;
+}
+
+.error404 {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .inicio {
   display: flex;
   flex-direction: row;
+  align-items: center;
+}
+
+.error-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.servicio {
+  text-align: center;
+}
+.servicio img {
   align-items: center;
 }
 
