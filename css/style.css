@@ -63,18 +63,20 @@ footer ul a {
 .gridFooter {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
   justify-items: center;
   row-gap: 20px;
   column-gap: 10px;
-  grid-template-areas: ". redes  news news oficina ." ". redes . . oficina .";
+  grid-template-areas: ". redes  news news . .";
 }
 
 ul .socialNet {
   display: flex;
   margin: 10px 10px 0px 0px;
+  flex-direction: row;
+  align-items: center;
 }
-ul .socialNet li {
+ul li {
   margin: 10px 0px;
 }
 
