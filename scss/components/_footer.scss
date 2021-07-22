@@ -38,24 +38,22 @@ footer {
 
 .gridFooter {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  /*
   grid-template-rows: repeat(1, 1fr);
+  */
   justify-items: center;
   row-gap: 20px;
   column-gap: 10px;
   grid-template-areas:
-    ". redes  news news . .";
+    ". redes . .";
 }
 
-ul {
+
   .socialNet {
     display: flex;
-    margin: 10px 10px 0px 0px ;
+    margin: 10px 10px 10px 0px ;
     flex-direction: row;
     align-items: center;
-  }
-    li {
-      margin: 10px 0px;
-    }
   }
 
