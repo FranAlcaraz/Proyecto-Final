@@ -267,6 +267,9 @@ nav .fran {
 .square2 {
   transition: all 0.2s;
 }
+.square2 img {
+  width: 70px;
+}
 .square2:hover {
   /* transform: translate(20px, 20px); */
   -webkit-transform: scale(1.5);
@@ -315,6 +318,11 @@ nav .fran {
 }
 .servicio img {
   align-items: center;
+}
+
+.portfolio {
+  display: flex;
+  justify-content: space-around;
 }
 
 /*# sourceMappingURL=style.css.map */

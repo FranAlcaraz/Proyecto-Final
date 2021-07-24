@@ -6,6 +6,7 @@
 @import "base/query";
 
 
+
 .avatar {
   border-radius: 75px;
   border-width: 2px;
@@ -137,8 +138,11 @@ nav {
 }
 
 .square2 {
-  
   transition: all 0.2s;
+
+  img{
+    width: 70px;
+  }
 
   &:hover {
     /* transform: translate(20px, 20px); */
@@ -188,4 +192,9 @@ nav {
   img{
     align-items: center;
   }
+}
+
+.portfolio{
+  display: flex;
+  justify-content: space-around;
 }
