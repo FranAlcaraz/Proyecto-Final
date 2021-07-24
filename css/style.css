@@ -15,7 +15,7 @@
   font-family: "monserrat extraLight";
   src: url("../fonts/Montserrat-ExtraLight.ttf") format("truetype");
 }
-.containerSkills, .containerCeo {
+.portfolio, .error-container, .inicio, .error404, .a404, .photo-grid, .containerSkills, .containerCeo, .quienSoy, .backgroundHover, .devIcons {
   display: flex;
   align-items: center;
   margin-top: 10px;
@@ -79,7 +79,7 @@ footer ul a {
   align-items: center;
 }
 
-.containerSkills, .containerCeo {
+.portfolio, .error-container, .inicio, .error404, .a404, .photo-grid, .containerSkills, .containerCeo, .quienSoy, .backgroundHover, .devIcons {
   display: flex;
   align-items: center;
   margin-top: 10px;
@@ -173,15 +173,11 @@ nav .fran {
 
 .devIcons {
   width: 100px;
-  display: flex;
-  align-items: center;
 }
 
 .backgroundHover {
   padding: 10px;
-  display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 .backgroundHover:hover {
@@ -206,8 +202,6 @@ nav .fran {
   color: white;
   font-family: "monserrat Bold";
   font-display: swap;
-  display: flex;
-  align-items: center;
   flex-direction: column;
 }
 
@@ -232,8 +226,6 @@ nav .fran {
 }
 
 .photo-grid {
-  display: flex;
-  align-items: center;
   /*con esta propiedad se baja automaticamente cuando llega al maximo de ancho*/
   flex-wrap: wrap;
   justify-content: center;
@@ -288,16 +280,12 @@ nav .fran {
   color: #4b6055;
   font-family: "monserrat Bold";
   font-display: swap;
-  display: flex;
-  align-items: center;
   flex-direction: column;
 }
 
 .error404 {
   width: 60%;
-  display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
 }
 
@@ -308,9 +296,7 @@ nav .fran {
 }
 
 .error-container {
-  display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 .servicio {
@@ -321,7 +307,6 @@ nav .fran {
 }
 
 .portfolio {
-  display: flex;
   justify-content: space-around;
 }
 

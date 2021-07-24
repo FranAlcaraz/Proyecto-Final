@@ -5,8 +5,6 @@
 @import "components/footer";
 @import "base/query";
 
-
-
 .avatar {
   border-radius: 75px;
   border-width: 2px;
@@ -17,41 +15,35 @@
 nav {
   a {
     @include colorFuente(white !important);
-    font-family:'monserrat Bold';
+    font-family: "monserrat Bold";
     font-display: swap;
     font-size: 20px;
     text-decoration: none;
 
-    &:hover{
+    &:hover {
       color: #416475 !important;
     }
-
   }
-  .fran{
+  .fran {
     background-color: #416475;
   }
 }
 
-.devIcons{
+.devIcons {
   width: 100px;
-  display: flex;
-  align-items: center;
+  @extend %container;
 }
-.backgroundHover{
+.backgroundHover {
   padding: 10px;
-  display: flex;
+  @extend %container;
   flex-direction: column;
-  align-items: center;
 }
 
-
-.backgroundHover:hover{
+.backgroundHover:hover {
   background-color: #4b6055;
-  transition:all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
   border-radius: 20px;
   color: white;
-
-
 }
 
 .centrado {
@@ -67,16 +59,15 @@ nav {
 .quienSoy {
   background-color: #c4bdb5;
   @include colorFuente(white);
-  font-family: 'monserrat Bold';
+  font-family: "monserrat Bold";
   font-display: swap;
-  display: flex;
-  align-items: center;
+  @extend %container;
   flex-direction: column;
 }
 
 .textoYo {
   @include colorFuente(nth($colores, 2));
-  font-family: 'monserrat Light';
+  font-family: "monserrat Light";
   font-display: swap;
   text-align: justify;
 }
@@ -100,8 +91,7 @@ nav {
 }
 
 .photo-grid {
-  display: flex;
-  align-items: center;
+  @extend %container;
   /*con esta propiedad se baja automaticamente cuando llega al maximo de ancho*/
   flex-wrap: wrap;
   justify-content: center;
@@ -114,7 +104,6 @@ nav {
     margin: 10px 10px;
   }
 }
-
 
 .servicios {
   display: grid;
@@ -140,7 +129,7 @@ nav {
 .square2 {
   transition: all 0.2s;
 
-  img{
+  img {
     width: 70px;
   }
 
@@ -157,44 +146,41 @@ nav {
   margin-right: auto !important;
 }
 
-.a404{
+.a404 {
   @include colorFuente(nth($colores, 2));
-  font-family: 'monserrat Bold';
+  font-family: "monserrat Bold";
   font-display: swap;
-  display: flex;
-  align-items: center;
+  @extend %container;
   flex-direction: column;
 }
 
-.error404{
+.error404 {
   width: 60%;
-  display: flex;
+  @extend %container;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
 
+  justify-content: center;
 }
 
-.inicio{
+.inicio {
   display: flex;
   flex-direction: row;
   align-items: center;
-
+  @extend %container;
 }
 
-.error-container{
-  display: flex;
+.error-container {
+  @extend %container;
   flex-direction: column;
-  align-items: center;
 }
-.servicio{
+.servicio {
   text-align: center;
-  img{
+  img {
     align-items: center;
   }
 }
 
-.portfolio{
-  display: flex;
+.portfolio {
+  @extend %container;
   justify-content: space-around;
 }
