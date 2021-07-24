@@ -24,7 +24,7 @@ footer {
 }
 
 .newsletter {
-  grid-area: news;
+  grid-area: newsletter;
   display: flex;
   align-items: center;
 }
@@ -46,7 +46,7 @@ footer {
   row-gap: 20px;
   column-gap: 10px;
   grid-template-areas:
-    ". redes . .";
+    ". redes newsletter .";
 }
 
 
