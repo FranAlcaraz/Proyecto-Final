@@ -67,7 +67,7 @@ nav {
 
 .textoYo {
   @include colorFuente(nth($colores, 2));
-  font-family: "monserrat Light";
+  font-family: "monserrat Regular";
   font-display: swap;
   text-align: justify;
 }
