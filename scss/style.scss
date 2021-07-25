@@ -58,7 +58,7 @@ nav {
 
 .quienSoy {
   background-color: #c4bdb5;
-  @include colorFuente(white);
+  @include colorFuente(nth($colores, 6));
   font-family: "monserrat Bold";
   font-display: swap;
   @extend %container;
@@ -66,7 +66,7 @@ nav {
 }
 
 .textoYo {
-  @include colorFuente(nth($colores, 2));
+  @include colorFuente(nth($colores, 7));
   font-family: "monserrat Regular";
   font-display: swap;
   text-align: justify;

@@ -204,14 +204,14 @@ nav .fran {
 
 .quienSoy {
   background-color: #c4bdb5;
-  color: white;
+  color: #4c4c4c;
   font-family: "monserrat Bold";
   font-display: swap;
   flex-direction: column;
 }
 
 .textoYo {
-  color: #4b6055;
+  color: #28332d;
   font-family: "monserrat Regular";
   font-display: swap;
   text-align: justify;
