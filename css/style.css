@@ -97,9 +97,10 @@ footer ul a {
   }
 
   .gridFooter {
-    display: flex !important;
+    display: flex;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -123,12 +124,12 @@ footer ul a {
 @media only screen and (max-width: 600px) and (min-width: 401px) {
   .gridFooter {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
     justify-items: center;
     row-gap: 20px;
     column-gap: 10px;
-    grid-template-areas: "news" "redes" "oficina";
+    grid-template-areas: "redes newsletter";
   }
 
   .maps {
