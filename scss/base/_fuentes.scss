@@ -3,20 +3,24 @@
     font-family: "monserrat Regular";
     /*para otf opentype ttf truetype y woff se pone woff*/
     src: url("../fonts/Montserrat-Regular.ttf") format("truetype");
+    font-display: swap;
   }
   
   @font-face {
     font-family: "monserrat Bold";
     src: url("../fonts/Montserrat-Bold.ttf") format("truetype");
+    font-display: swap;
   }
   
   @font-face {
     font-family: "monserrat Light";
     src: url("../fonts/Montserrat-Light.ttf") format("truetype");
+    font-display: swap;
   }
   
   @font-face {
     font-family: "monserrat extraLight";
     src: url("../fonts/Montserrat-ExtraLight.ttf") format("truetype");
+    font-display: swap;
   }
   

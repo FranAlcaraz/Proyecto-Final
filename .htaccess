@@ -1,0 +1,10 @@
+ErrorDocument 404 /404.html
+<FilesMatch "\.(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf)$">
+Header set Cache-Control "max-age=604800, public"
+</FilesMatch>
+
+# HTID:17748354: NO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
+php_value display_errors 1
+
+
+# NO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW HTID:17748354: 

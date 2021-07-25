@@ -2,18 +2,22 @@
   font-family: "monserrat Regular";
   /*para otf opentype ttf truetype y woff se pone woff*/
   src: url("../fonts/Montserrat-Regular.ttf") format("truetype");
+  font-display: swap;
 }
 @font-face {
   font-family: "monserrat Bold";
   src: url("../fonts/Montserrat-Bold.ttf") format("truetype");
+  font-display: swap;
 }
 @font-face {
   font-family: "monserrat Light";
   src: url("../fonts/Montserrat-Light.ttf") format("truetype");
+  font-display: swap;
 }
 @font-face {
   font-family: "monserrat extraLight";
   src: url("../fonts/Montserrat-ExtraLight.ttf") format("truetype");
+  font-display: swap;
 }
 .portfolio, .error-container, .inicio, .error404, .a404, .photo-grid, .containerSkills, .containerCeo, .quienSoy, .backgroundHover, .devIcons {
   display: flex;
@@ -309,6 +313,11 @@ nav .fran {
 
 .portfolio {
   justify-content: space-around;
+}
+
+.contacto {
+  background-color: #4b6055 !important;
+  border: #4b6055;
 }
 
 /*# sourceMappingURL=style.css.map */
